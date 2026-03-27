@@ -3,3 +3,7 @@
   to = "https://vacationclubpromo.com/"
   status = 301
   force = true
+
+[build]
+  command = ""
+  publish = "."
