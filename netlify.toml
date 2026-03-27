@@ -1,0 +1,5 @@
+[[redirects]]
+  from = "/*"
+  to = "https://vacationclubpromo.com/"
+  status = 301
+  force = true
