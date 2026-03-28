@@ -1,0 +1,61 @@
+baseURL = "https://timesharepromo.com/"
+languageCode = "en-us"
+title = "Timeshare Promo | Honest Timeshare & Vacation Club Guides"
+theme = "ananke"
+[pagination]
+  pagerSize = 12
+
+[params]
+  description = "Honest, transparent guides to timeshare promotions, vacation club deals, and all-inclusive resort packages in Mexico and the Caribbean. No sales pitch — just real information from industry professionals."
+  favicon = ""
+  site_logo = ""
+  text_color = ""
+  author = "Bowman Web Services LLC"
+  background_color_class = "bg-dark-gray"
+  body_classes = "avenir bg-nearest-white"
+  post_content_classes = "avenir bg-nearest-white"
+  show_reading_time = true
+  featured_image = "/images/hero-beach-resort.jpg"
+  recent_posts_number = 6
+
+[params.social]
+  # No social links — this is a content/link hub, not a social brand
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Timeshare Deals"
+    url = "/articles/"
+    weight = 1
+  [[menu.main]]
+    name = "Vacation Clubs"
+    url = "/articles/timeshare-vs-vacation-club/"
+    weight = 2
+  [[menu.main]]
+    name = "Mexico Resorts"
+    url = "/articles/timeshare-promotions-mexico/"
+    weight = 3
+  [[menu.main]]
+    name = "About"
+    url = "/pages/about/"
+    weight = 4
+
+[sitemap]
+  changefreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
+[outputs]
+  home = ["HTML", "RSS"]
+
+[privacy]
+  [privacy.googleAnalytics]
+    disable = true
+  [privacy.x]
+    disable = true
+  [privacy.youtube]
+    privacyEnhanced = true
